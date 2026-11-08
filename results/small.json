@@ -1,0 +1,252 @@
+[
+ {
+  "instance": "task-example (A,B,C)",
+  "n": 3,
+  "p": [
+   2,
+   4,
+   1
+  ],
+  "w": [
+   5,
+   1,
+   3
+  ],
+  "d": [
+   3,
+   6,
+   2
+  ],
+  "greedy_atc": "C A B",
+  "greedy_value": 1,
+  "aco_order": "C A B",
+  "aco_value": 1,
+  "found_at_iter": 2,
+  "optimum_order": "C A B",
+  "optimum": 1,
+  "C": [
+   1,
+   3,
+   7
+  ],
+  "T": [
+   0,
+   0,
+   1
+  ]
+ },
+ {
+  "instance": "all-on-time",
+  "n": 4,
+  "p": [
+   2,
+   3,
+   1,
+   4
+  ],
+  "w": [
+   1,
+   2,
+   3,
+   1
+  ],
+  "d": [
+   3,
+   6,
+   7,
+   10
+  ],
+  "greedy_atc": "C A B D",
+  "greedy_value": 0,
+  "aco_order": "C A B D",
+  "aco_value": 0,
+  "found_at_iter": 0,
+  "optimum_order": "A B C D",
+  "optimum": 0,
+  "C": [
+   1,
+   3,
+   6,
+   10
+  ],
+  "T": [
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ {
+  "instance": "all-late (WSPT)",
+  "n": 5,
+  "p": [
+   4,
+   2,
+   6,
+   3,
+   5
+  ],
+  "w": [
+   1,
+   4,
+   3,
+   2,
+   5
+  ],
+  "d": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "greedy_atc": "B E D C A",
+  "greedy_value": 131,
+  "aco_order": "B E D C A",
+  "aco_value": 131,
+  "found_at_iter": 0,
+  "optimum_order": "B E D C A",
+  "optimum": 131,
+  "C": [
+   2,
+   7,
+   10,
+   16,
+   20
+  ],
+  "T": [
+   2,
+   7,
+   10,
+   16,
+   20
+  ]
+ },
+ {
+  "instance": "mixed n=8",
+  "n": 8,
+  "p": [
+   5,
+   9,
+   3,
+   7,
+   2,
+   6,
+   4,
+   8
+  ],
+  "w": [
+   3,
+   1,
+   4,
+   2,
+   5,
+   2,
+   3,
+   1
+  ],
+  "d": [
+   10,
+   30,
+   8,
+   20,
+   6,
+   25,
+   15,
+   40
+  ],
+  "greedy_atc": "E C A G D F B H",
+  "greedy_value": 16,
+  "aco_order": "E C A G D F B H",
+  "aco_value": 16,
+  "found_at_iter": 0,
+  "optimum_order": "C E A G D F B H",
+  "optimum": 16,
+  "C": [
+   2,
+   5,
+   10,
+   14,
+   21,
+   27,
+   36,
+   44
+  ],
+  "T": [
+   0,
+   0,
+   0,
+   0,
+   1,
+   2,
+   6,
+   4
+  ]
+ },
+ {
+  "instance": "tight n=9",
+  "n": 9,
+  "p": [
+   8,
+   3,
+   6,
+   2,
+   9,
+   4,
+   7,
+   5,
+   1
+  ],
+  "w": [
+   9,
+   1,
+   6,
+   2,
+   10,
+   3,
+   7,
+   4,
+   1
+  ],
+  "d": [
+   12,
+   9,
+   15,
+   6,
+   20,
+   10,
+   18,
+   14,
+   5
+  ],
+  "greedy_atc": "A D E C G I H F B",
+  "greedy_value": 422,
+  "aco_order": "I D A E G C H F B",
+  "aco_value": 399,
+  "found_at_iter": 11,
+  "optimum_order": "D I A E C G H F B",
+  "optimum": 399,
+  "C": [
+   1,
+   3,
+   11,
+   20,
+   27,
+   33,
+   38,
+   42,
+   45
+  ],
+  "T": [
+   0,
+   0,
+   0,
+   0,
+   9,
+   18,
+   24,
+   32,
+   36
+  ]
+ }
+]
